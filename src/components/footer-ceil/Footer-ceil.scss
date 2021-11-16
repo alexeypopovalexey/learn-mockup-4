@@ -1,0 +1,37 @@
+@import '../../styles/style.scss';
+
+.footer {
+    &__ceil {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 0px;
+      border-bottom: 1px solid $text-colot-line;
+      &--copypast {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: $text-color-copypst;
+      }
+      &--logo {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 38px;
+        color: $text-color-title;
+      }
+    }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    &__ceil {
+      &--logo {
+        display: none;
+      }
+    }
+  }
+}

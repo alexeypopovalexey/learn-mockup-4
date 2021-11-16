@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 165px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 992px) { 
+    .wrapper {
+        padding: 0px 30px;
+    }
+ }
+
+ @media (max-width: 576px) { 
+    .wrapper {
+        padding: 0px 10px;
+    }
+ }

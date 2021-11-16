@@ -1,0 +1,22 @@
+@keyframes active-burger {
+    0% {
+        height: 0px;
+    }
+    99% {
+      height: 70px;
+    }
+}
+
+@keyframes disactive-burger {
+  0% {
+      height: 70px;
+  }
+  99% {
+    height: 0px;
+  }
+  100% {
+    padding: 0px;
+    height: 0px;
+    display: none;
+  }
+}

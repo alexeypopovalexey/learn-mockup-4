@@ -1,0 +1,26 @@
+@import '../../styles/style.scss';
+
+.header{
+  position: sticky;
+  top: 0;
+  background-color: $main-bg-header;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0px;
+    }
+    &__logo {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 38px;
+        color: $text-color-subtitle;
+        flex-grow: 1;
+        width: auto;
+        text-align: center;
+        cursor: default;
+    }
+    
+}

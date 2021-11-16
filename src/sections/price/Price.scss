@@ -1,0 +1,73 @@
+@import '../../styles/style.scss';
+
+.price {
+    background: center top / 150% no-repeat url('../../assets/image/svg/Pricing-bg.svg');
+    &__container {
+      padding: 150px 0px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-family: $font-main;
+    }
+    &__title {
+      padding: 20px 0px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: $text-color-title;
+    }
+    &__text {
+      width: 50%;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: $text-color-content;
+    }
+    &__pricename {
+      margin-top: 35px;
+      padding: 5px 0px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      letter-spacing: 1px;
+      color: $text-color-money;
+    }
+    &__subtitle {
+      margin-bottom: 60px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: $text-color-subtitle;
+    }
+    &__comment {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-color-minor;
+    }
+}
+
+@media (max-width: 768px) {
+  .price {
+    background-color: $bg-color-minot;
+    &__container {
+      padding: 30px;
+    }
+    &__text {
+      width: 96%;
+    }
+    &__pricename {
+      margin-top: 30px;
+    }
+    &__subtitle {
+      margin-bottom: 30px;
+    }
+  }
+}
